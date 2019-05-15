@@ -1,0 +1,62 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/cores/nRF5",
+                "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/cores/nRF5/SDK/components/drivers_nrf/delay",
+                "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/cores/nRF5/SDK/components/device",
+                "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/cores/nRF5/SDK/components/toolchain",
+                "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/cores/nRF5/SDK/components/toolchain/CMSIS/Include",
+                "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/variants/nRF52DK",
+                "c:/Users/e.ziehe/Documents/arduino/Nrf52DspTest/lib/dsp",
+                "c:/Users/e.ziehe/Documents/arduino/Nrf52DspTest/.piolibdeps/CircularBuffer_ID1796",
+                "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/libraries/SPI",
+                "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/libraries/Wire",
+                "C:/Users/e.ziehe/.platformio/packages/tool-unity",
+                "c:/Users/e.ziehe/Documents/arduino/Nrf52DspTest/include",
+                "c:/Users/e.ziehe/Documents/arduino/Nrf52DspTest/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/.browse.c_cpp.db",
+                "path": [
+                    "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/cores/nRF5",
+                    "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/cores/nRF5/SDK/components/drivers_nrf/delay",
+                    "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/cores/nRF5/SDK/components/device",
+                    "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/cores/nRF5/SDK/components/toolchain",
+                    "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/cores/nRF5/SDK/components/toolchain/CMSIS/Include",
+                    "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/variants/nRF52DK",
+                    "c:/Users/e.ziehe/Documents/arduino/Nrf52DspTest/lib/dsp",
+                    "c:/Users/e.ziehe/Documents/arduino/Nrf52DspTest/.piolibdeps/CircularBuffer_ID1796",
+                    "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/libraries/SPI",
+                    "C:/Users/e.ziehe/.platformio/packages/framework-arduinonordicnrf5/libraries/Wire",
+                    "C:/Users/e.ziehe/.platformio/packages/tool-unity",
+                    "c:/Users/e.ziehe/Documents/arduino/Nrf52DspTest/include",
+                    "c:/Users/e.ziehe/Documents/arduino/Nrf52DspTest/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=30607",
+                "ARDUINO_NRF52_DK",
+                "ARDUINO=10805",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_NRF5",
+                "NRF5",
+                "NRF52",
+                "USE_LFXO",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "\"C:/Users/e.ziehe/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc.exe\" -mthumb -mcpu=cortex-m4 -mfloat-abi=softfp -mfpu=fpv4-sp-d16"
+        }
+    ],
+    "version": 4
+}
