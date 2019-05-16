@@ -18,7 +18,13 @@ void FftCallback(float Sample_Data[SAMPLES_COUNT],float MagnitudeData[FFT_COUNT]
 void setup()
 {
     Serial.begin(115200);
+    Serial.println("Init");
     pinMode(A0,INPUT);
+    pinMode(PIN_LED1,OUTPUT);
+    digitalWrite(PIN_LED1,HIGH);
+    delay(2000);
+    digitalWrite(PIN_LED1,LOW);
+    Serial.println("Init Sampler");
     initSampler();
     startSampler();
 }
