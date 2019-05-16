@@ -2,8 +2,8 @@
 #include <nrf.h>
 #include <dsp.h>
 
-// callback for AudioSampler
-void AudioFftCallback(float Sample_Data[SAMPLES_COUNT],float MagnitudeData[FFT_COUNT])
+// callback for Sampler
+void FftCallback(float Sample_Data[SAMPLES_COUNT],float MagnitudeData[FFT_COUNT])
 {
     Serial.print("FFT:");
     for (size_t i = 0; i < FFT_COUNT; i++)

@@ -12,9 +12,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "c:/Users/e.ziehe/Documents/arduino/Nrf52DspTest/.pioenvs/nrf52_dk/firmware.elf",
-            "toolchainBinDir": "C:/Users/e.ziehe/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
-            "svdPath": "C:/Users/e.ziehe/.platformio/platforms/nordicnrf52/misc/svd/nrf52.svd",
+            "executable": "c:/Users/install/Documents/Arduino/Nrf52DspTest/.pioenvs/nrf52_dk/firmware.elf",
+            "toolchainBinDir": "C:/Users/install/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "svdPath": "C:/Users/install/.platformio/platforms/nordicnrf52/misc/svd/nrf52.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
                 "task": "Pre-Debug"
@@ -25,9 +25,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "c:/Users/e.ziehe/Documents/arduino/Nrf52DspTest/.pioenvs/nrf52_dk/firmware.elf",
-            "toolchainBinDir": "C:/Users/e.ziehe/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
-            "svdPath": "C:/Users/e.ziehe/.platformio/platforms/nordicnrf52/misc/svd/nrf52.svd",
+            "executable": "c:/Users/install/Documents/Arduino/Nrf52DspTest/.pioenvs/nrf52_dk/firmware.elf",
+            "toolchainBinDir": "C:/Users/install/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "svdPath": "C:/Users/install/.platformio/platforms/nordicnrf52/misc/svd/nrf52.svd",
             "internalConsoleOptions": "openOnSessionStart"
         }
     ]
